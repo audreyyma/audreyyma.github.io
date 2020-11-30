@@ -1,0 +1,174 @@
+body {
+	background-color:white;
+}
+
+#hightea {
+	width: 450px;
+}
+.colors {
+	position: relative;
+  top: 0;
+  left: 0;
+}
+
+.color {
+  position: absolute;
+  width: 600px;
+  top: 0;
+  left: 0;
+}
+
+
+#tray {
+  position: relative;
+  width: 600px;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+
+#default {
+	z-index: 1;
+}
+
+.buttons {
+	opacity: 0%;
+	background-color: transparent;
+	position: absolute;
+}
+
+.buttons:hover {
+	cursor: pointer;
+}
+
+#button1 {
+	width: 70px;
+  height: 80px;
+  left: 320px;
+  top: 160px;
+	z-index: 3;
+}
+
+#button2 {
+  width: 110px;
+  height: 50px;
+  left: 210px;
+  top: 180px;
+  z-index: 3;
+}
+
+#button3 {
+  width: 70px;
+  height: 50px;
+  left: 220px;
+  top: 300px;
+  z-index: 3;
+}
+
+#button4 {
+  width: 80px;
+  height: 50px;
+  left: 310px;
+  top: 300px;
+  z-index: 3;
+}
+
+#button5 {
+  width: 240px;
+  height: 80px;
+  left: 200px;
+  top: 400px;
+  z-index: 3;
+}
+
+
+h1 {
+  font-family: 'Source Serif Pro', serif;
+  margin-bottom: 0px;
+}
+
+h3 {
+  display: block;
+  font-family: 'Source Serif Pro', serif;
+  margin-top: 0px;
+  color: #adadad;
+  animation: bounce 2s 1 ease;
+}
+
+h6 {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.content {
+  padding-top: 50px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+#shooters-recipe {
+  display: none;
+}
+
+#breads-recipe {
+  display: none;
+}
+
+#cake-recipe {
+  display: none;
+}
+
+#macarons-recipe {
+  display: none;
+}
+
+#sandwiches-recipe {
+  display: none;
+}
+
+.recipe {
+  animation: appear 0.5s 1;
+}
+
+#eighth {
+	width: 20px;
+	position: absolute;
+	left: 340px;
+	top: 140px;
+	animation: fade 2s ease-in 0s infinite;
+}
+
+#doubles {
+	position: absolute;
+	width: 25px;
+	left: 380px;
+	top: 160px;
+	animation: fade 2s ease-in 1s infinite;
+}
+
+@keyframes bounce {
+  0%   { transform: scale(1,1)    translateY(0); }
+  10%  { transform: scale(1.02,.97) translateY(0); }
+  30%  { transform: scale(.95,1.05) translateY(-5px); }
+  50%  { transform: scale(1,1)    translateY(0); }
+  57%  { transform: scale(1,1)    translateY(-3px); }
+  64%  { transform: scale(1,1)    translateY(0); }
+  100% { transform: scale(1,1)    translateY(0); }
+}
+
+@keyframes appear {
+  0% { opacity: 0;}
+  50% { opacity: 0.5;}
+  100% { opacity: 1;}
+}
+
