@@ -1,5 +1,3 @@
-/*document.getElementById('default').classList.remove("hidden");*/
-
 function color(element) {
     document.getElementById(element).classList.remove("hidden");
     document.getElementById(element+"-recipe").style.display = "block";
