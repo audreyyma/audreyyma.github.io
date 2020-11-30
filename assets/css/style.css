@@ -83,6 +83,9 @@ body {
   z-index: 3;
 }
 
+.recipetext {
+  margin-top: 230px;
+}
 
 h1 {
   font-family: 'Source Serif Pro', serif;
@@ -109,7 +112,6 @@ h6 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
 }
 
 .hidden {
